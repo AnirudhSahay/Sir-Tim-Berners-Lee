@@ -1,90 +1,127 @@
-.profile{
+.profile {
     width: 175px;
     margin-bottom: 50px;
-    border-radius: 100%;   
+    border-radius: 100%;
 }
-#name{
+
+#name {
     font-size: 30px;
     line-height: 1.2;
-    font-family:'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
 }
-.parallax-inner{
+
+.parallax-inner {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
     position: relative;
 }
-#Welcome{
+
+#Welcome {
     position: absolute;
     overflow: hidden;
     height: 800px;
     color: darkred;
-    background: linear-gradient( #29cf95 0%, #1152d4 100%); 
-    width:100%;
+    background: linear-gradient(#29cf95 0%, #1152d4 100%);
+    width: 100%;
     height: 100%;
     display: table;
-    top:0; 
-    bottom:0;
-    left:0;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     opacity: 1;
     z-index: 1;
 }
-h1{
+
+h1 {
     font-size: 40px;
     line-height: 1.2;
     font-family: sans-serif;
-font-weight: 300;
+    font-weight: 300;
 }
-h2{
+
+h2 {
     font-size: 30px;
     line-height: 1.2;
     font-family: monospace;
-font-weight: 300;
+    font-weight: 300;
 }
-p{
+
+p {
     font-size: 17px;
     line-height: 1.3;
     font-family: monospace;
-font-weight: 300;
+    font-weight: 300;
     margin: 25px auto;
     max-width: 500px;
 }
-#bio{
+
+#bio {
     padding: 50px;
 
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     padding-top: 800px;
     text-align: center;
 }
-.line{
-    height:6px;
+
+.line {
+    height: 6px;
     background-color: black;
     width: 400px;
-    margin:8px auto;
+    margin: 8px auto;
 }
-.menu{
-font-family: fantasy;
-    z-index:5;
-list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+
+.menu {
+    font-family: fantasy;
+    z-index: 5;
+    list-style: none;
+    position: fixed;
+    top: 0px;
     cursor: pointer;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;    
 }
-.links{
-    float: left;
-    color: azure;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: monospace;
-    font-size:20px;
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: aqua;
+text-decoration: underline;
+transform:scale(1.2);
+    transition-duration: .2s;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Contact iframe{
+    width: 100%;
     
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+color: white;
+    text-shadow: none;
+}
+#Contact{
+    background-color:firebrick
 }
